@@ -280,13 +280,13 @@ body {
     line-height: 20px;
     letter-spacing: 0.2px;
     color: white; 
-    margin-top: 81px;
+    margin-top: 51px;
     position: relative;
    
    }
    .sec_quote .quote_heading::after{
     content: " ";
-    height: 3px;
+    height: 2px;
     width: 278px;
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -295,12 +295,12 @@ body {
     transform: translate(-50%);
    }
    .sec_quote .quote_para{
-    margin-top: 139px;
+    margin-top: 80px;
     color: white;
     font-family: Playfair Display;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 40px;
+    font-size: 24px;
+    /* font-weight: 400; */
+    line-height: 36px;
     letter-spacing: 0.2px;
    }
    .sec_quote .quote_author{
@@ -543,10 +543,11 @@ body {
         transform: translateY(-100px);
     }
     #body-div .body-bg h1 {
-        font-size: 2.5rem;
+        font-size: 36px;
+        margin-top: -40px !important;
     }
     #body-div .body-bg h2 {
-        font-size: 2rem;
+        font-size: 28px;
     }
     #body-div .body-bg {
         height: 400px;
@@ -568,5 +569,26 @@ body {
         margin-bottom: 10px;
     }.dropdown-menu.show{
         box-shadow: none !important;
+    }
+    .sec_quote .quote_heading{
+        font-size: 30px;
+    }
+    .sec_quote .quote_para {
+        font-size: 16px;
+    }
+    .plyr {
+        min-width: 100vw;
+        width: 100vw;
+        /* margin-top: 50%; */
+        transform: translateY(100px);
+    }
+    .section2-text{
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-top: 50px !important;
+    }
+    #body-div .body-bg p{
+        font-size: 16px;
+        line-height: 20px;
     }
 }
