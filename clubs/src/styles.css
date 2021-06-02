@@ -1,4 +1,14 @@
 #content-preloader{display:none;}#loader{ position: absolute; margin: auto; top: 0; right: 0; bottom: 0; left: 0; width: 400px;  height: 400px;  z-index: 99;  transform: scale(.4);}#loader img{width:400px;}
+
+.counter-heading{
+    font-size: 28px;
+    font-family: Plyfair Display;
+    color: #7a7a7a;
+}
+.timer{
+    font-size: 36px;
+    color: #7a7a7a;
+}
 * {
     margin: 0;
     padding: 0;
@@ -148,6 +158,7 @@ body {
 .plyr {
     min-width: 200px;
     width: 966px;
+    box-shadow: 0 0px 36px rgb(0 0 0 / 10%),0 16px 36px rgb(0 0 0 / 15%);
 }
 
 
