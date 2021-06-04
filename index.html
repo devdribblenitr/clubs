@@ -208,7 +208,7 @@ button.plyr__control.plyr__control--overlaid{
     </section>
     <section class="pb-5" id="section3">
         <div class="row">
-            <div class="col-md-10 col-11 mx-auto inside-section3 p-5">
+            <div class="col-md-10 col-11 mx-auto inside-section3 py-5 px-0">
                  
                 <div class="row mx-auto">
                     <div class="col-md-3 col-6 py-2 smalldiv"><div class="smalldiv-content"><div class="d-flex justify-content-center align-items-center timer mt-5" style="width: 100%;" id="yes" data-from="0" data-to="97" data-speed="3000" data-target="#yesyes">    </div><h2 class="text-center mt-3 counter-heading">Total Clubs</h2><div class="smalldiv-footer"></div>  </div></div>
@@ -382,6 +382,12 @@ button.plyr__control.plyr__control--overlaid{
         });
         const player = new Plyr('#player');
     </script>
+     <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script>
     <script></script>
 </body>
 
